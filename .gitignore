@@ -1,0 +1,27 @@
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Backups the scripts write before they change the database
+data/backups/
+
+# Files created when you use the Print Studio's review features
+data/review-comments.json
+data/review-status.json
+
+# Things you generate
+/briefings/
+/roster.csv
+*.roster.csv
+/output/
+
+# Machine-readable output of the network review
+/reports/*/analysis.json

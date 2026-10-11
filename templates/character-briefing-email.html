@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{host_names}}: your character briefing</title>
+  </head>
+  <body style="margin:0; padding:0; background:#faf8f1; color:#202124; font-family:Arial, Helvetica, sans-serif;">
+    <div style="display:none; max-height:0; overflow:hidden; opacity:0;">
+      Your character briefing for the murder mystery at {{occasion}}.
+    </div>
+
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#faf8f1; margin:0; padding:24px 12px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:720px; background:#ffffff; border:1.5px solid #d9ae28; border-radius:18px; box-shadow:0 18px 48px rgba(33, 33, 33, 0.08);">
+            <tr>
+              <td style="padding:42px 38px 28px 38px; text-align:center;">
+                <div style="font-size:14px; line-height:1.2; letter-spacing:8px; color:#d6ac28; font-weight:700; text-transform:uppercase;">
+                  {{host_names}}
+                </div>
+                <h1 style="margin:18px 0 0 0; font-size:34px; line-height:1.15; font-weight:800; color:#202124;">
+                  Character Briefing
+                </h1>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:0 38px 18px 38px;">
+                <p style="margin:0 0 22px 0; font-size:20px; line-height:1.45; color:#202124;">
+                  Hi {{name}},
+                </p>
+                <p style="margin:0; font-size:18px; line-height:1.55; color:#202124;">
+                  Thank you for coming to {{occasion}}. As part of the evening, we'll be running a light-hearted murder mystery set around the fictional world of Vale Meridian.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:18px 38px 24px 38px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #ead79b; border-radius:14px; background:#ffffff;">
+                  <tr>
+                    <td style="padding:28px 28px 30px 28px;">
+                      <div style="font-size:14px; line-height:1.2; letter-spacing:6px; color:#d6ac28; font-weight:700; text-transform:uppercase; margin-bottom:20px;">
+                        Your Character
+                      </div>
+                      <h2 style="margin:0 0 18px 0; font-size:28px; line-height:1.2; color:#202124; font-weight:800;">
+                        {{character_name}}
+                      </h2>
+                      <div style="font-size:17px; line-height:1.65; color:#333333;">
+                        {{character_description_html}}
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- MENU -->
+            <tr>
+              <td style="padding:0 38px 24px 38px;">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #ead79b; border-radius:14px; background:#fffdf8;">
+                  <tr>
+                    <td style="padding:24px 28px;">
+                      <div style="font-size:14px; line-height:1.2; letter-spacing:6px; color:#d6ac28; font-weight:700; text-transform:uppercase; margin-bottom:18px;">
+                        Menu Confirmation
+                      </div>
+                      <p style="margin:0 0 8px 0; font-size:16px; line-height:1.5; color:#333333;"><strong>Starter:</strong> {{starter}}</p>
+                      <p style="margin:0 0 8px 0; font-size:16px; line-height:1.5; color:#333333;"><strong>Main:</strong> {{main}}</p>
+                      <p style="margin:0 0 8px 0; font-size:16px; line-height:1.5; color:#333333;"><strong>Dessert:</strong> {{dessert}}</p>
+                      <p style="margin:0; font-size:16px; line-height:1.5; color:#333333;"><strong>Dietary requirements:</strong> {{dietary_requirements}}</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- /MENU -->
+
+            <tr>
+              <td style="padding:0 38px 34px 38px;">
+                <p style="margin:0 0 18px 0; font-size:17px; line-height:1.6; color:#333333;">
+                  Please read this before the evening, but keep your character information private. The game is designed to be straightforward: most people simply need to chat to other guests, ask a few questions, and share what they know when it feels useful.
+                </p>
+                <p style="margin:0 0 18px 0; font-size:17px; line-height:1.6; color:#333333;">
+                  Children do not have character roles, but they are very welcome to dress up if they would like.
+                </p>
+                <!-- MENU -->
+                <p style="margin:0 0 18px 0; font-size:17px; line-height:1.6; color:#333333;">
+                  Please let me know if you would like to make any changes to the menu or dietary details.
+                </p>
+                <!-- /MENU -->
+                <p style="margin:0 0 18px 0; font-size:17px; line-height:1.6; color:#333333;">
+                  Dress code guidance is included in your character description. You do not need to buy anything special; a nod towards the character or the 1980s TV/showbiz theme is absolutely fine.
+                </p>
+                <p style="margin:0; font-size:17px; line-height:1.6; color:#333333;">
+                  A few guests have short acting moments, but I have already spoken to those people separately and they will receive any extra instructions they need.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:0 38px;">
+                <div style="height:1px; background:#ead79b; line-height:1px;">&nbsp;</div>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:34px 38px 48px 38px; text-align:center;">
+                <p style="margin:0; font-size:20px; line-height:1.45; color:#d6ac28; font-weight:800;">
+                  With love,<br>
+                  {{host_names}}
+                </p>
+                <p style="margin:30px 0 0 0; font-size:13px; line-height:1.4; color:#777777;">
+                  You are receiving this because you are on the guest list for {{occasion}}.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

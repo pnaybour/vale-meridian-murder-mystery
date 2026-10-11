@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: print-studio/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install
+        run: |
+          pip install pillow
+          npm ci
+        working-directory: print-studio
+
+      - name: Python scripts compile
+        run: python3 -m compileall -q scripts print-studio/scripts
+
+      - name: The story readers are current with the database
+        run: |
+          python3 scripts/export_story_reader.py
+          git diff --exit-code story/
+
+      - name: The network review runs
+        run: python3 scripts/review_current_social_graph.py --output "$RUNNER_TEMP/review"
+
+      - name: The Print Studio snapshot is current with the database
+        run: npm run check:data
+        working-directory: print-studio
+
+      - name: Print Studio tests
+        run: npm test
+        working-directory: print-studio

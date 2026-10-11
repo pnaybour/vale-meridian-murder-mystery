@@ -1,0 +1,225 @@
+{
+  "description": "Short public introductions printed on name badges: who each character is, without giving away secrets. The Vincent/Peter introduction is split across two badges by export_snapshot.py.",
+  "characters": {
+    "Vincent Vale / Peter Vale": {
+      "credit": "Media dynasty",
+      "description": "Vincent is the charismatic founder of Vale Meridian Studios. After his dramatic demise, his suave and calculating twin Peter arrives to take his place in the spotlight."
+    },
+    "Veronica Vane": {
+      "credit": "Comeback soap star",
+      "description": "Once adored by millions, Veronica has returned to the screen with perfect hair, immaculate glamour and rather more at stake than she cares to admit."
+    },
+    "Inspector Donna Reed": {
+      "credit": "CID officer",
+      "description": "An off-duty detective who never truly clocks off. Calm, procedural and difficult to distract once the evening takes a suspicious turn."
+    },
+    "Dakota Steele": {
+      "credit": "Private investigator",
+      "description": "Discreet, observant and methodical. Dakota notices movements, objects and timings that pass everyone else by."
+    },
+    "Cassie Chase": {
+      "credit": "Heiress and wild child",
+      "description": "Money, glamour and a famously short fuse. Cassie wears her feelings openly, but she is far sharper than her reputation suggests."
+    },
+    "Crystal DeVille": {
+      "credit": "Showbiz agent",
+      "description": "A polished and ruthless career-maker who has spent decades deciding who gets access to fame and who is left waiting outside."
+    },
+    "Dr. Beverly Steele": {
+      "credit": "Harley Street surgeon",
+      "description": "Authoritative, expensive and accustomed to being the most knowledgeable person in the room, Beverly arrives with professional confidence and a discreet medical bag."
+    },
+    "Scooter": {
+      "credit": "Backstage messenger",
+      "description": "Quick, capable and easily overlooked. Scooter moves through crowded rooms delivering packages and hearing far more than people realise."
+    },
+    "Roxy Riot": {
+      "credit": "Punk-turned-goth icon",
+      "description": "Vale Meridian's former voice of rebellion, now colder, darker and more theatrical. Roxy can still make a room feel like a live stage."
+    },
+    "Rex 'Razor' Steele": {
+      "credit": "Heavy-metal star",
+      "description": "A pyrotechnic rock veteran with a reputation for spectacular performances, damaged dressing rooms and very loud opinions."
+    },
+    "Robbie Rayne": {
+      "credit": "Former boy-band heartthrob",
+      "description": "Once the smiling face of Take Watt, Robbie is now a guarded solo artist trying to keep the reunion atmosphere professionally cheerful."
+    },
+    "Nikki Neon": {
+      "credit": "Synthpop singer",
+      "description": "A bright, ambitious backing singer with sharp instincts, stage discipline and every intention of being remembered after the final chorus."
+    },
+    "Angie Vixen": {
+      "credit": "VHS scream queen",
+      "description": "The dramatic face of cult horror: expressive, theatrical and never afraid to turn a tense moment into a scene worth watching."
+    },
+    "Roxie Runway": {
+      "credit": "Supermodel",
+      "description": "Runway glamour with a carefully guarded private life. Roxie understands that appearances are valuable and secrets even more so."
+    },
+    "Larry Loveboat": {
+      "credit": "Lounge singer",
+      "description": "A velvet-voiced entertainer who treats every conversation as an intimate cabaret and every entrance as the start of a new number."
+    },
+    "Chuck Chambers": {
+      "credit": "Tabloid talk-show host",
+      "description": "Loud, charismatic and professionally fascinated by confrontation. Chuck can turn the smallest rumour into an hour of television."
+    },
+    "Brenda Blip": {
+      "credit": "BBC Radio 1 DJ",
+      "description": "Energetic, connected and always listening. Brenda knows how to read a room through a pair of headphones and recognise a scoop when she hears one."
+    },
+    "DJ Spinny T": {
+      "credit": "Pirate-radio legend",
+      "description": "A former pirate broadcaster who can control the mood of a room with impeccable timing, the right record and a well-placed distraction."
+    },
+    "Frankie Faith": {
+      "credit": "Television evangelist",
+      "description": "Immaculate, reassuring and permanently camera-ready. Frankie projects moral authority with all the polish of a prime-time broadcast."
+    },
+    "Tina Tanktop": {
+      "credit": "Aerobics guru",
+      "description": "A relentlessly upbeat fitness celebrity whose VHS empire combines Lycra, positive thinking and the promise of a completely new you."
+    },
+    "Lola Lasalle": {
+      "credit": "Fitness-video queen",
+      "description": "A disciplined celebrity trainer who turned workouts into a home-video phenomenon and knows how to keep smiling under pressure."
+    },
+    "Cassette Carl": {
+      "credit": "Mixtape bootlegger",
+      "description": "Streetwise and resourceful, Carl moves in circles where secrets have market value and information is currency."
+    },
+    "Lady Helena de Brissac": {
+      "credit": "Television evangelist",
+      "description": "Charismatic, pious and influential, Helena is used to commanding attention and trust while noticing the details others miss."
+    },
+    "Leo Lights": {
+      "credit": "Ambitious gaffer",
+      "description": "A lighting professional with an eye on the next rung of the ladder. Leo understands cues, power and what should happen when a switch is thrown."
+    },
+    "Sheila Sparks": {
+      "credit": "Pyro technician",
+      "description": "Practical, technically minded and watchful. Sheila notices when equipment, service or backstage arrangements do not follow the expected pattern."
+    },
+    "Fiona Fringe": {
+      "credit": "Shoulder-pad designer",
+      "description": "An architect of the unmistakable 1980s silhouette. Fiona reads clothes like evidence and spots alterations that nobody else would notice."
+    },
+    "Ronnie Reels": {
+      "credit": "Independent filmmaker",
+      "description": "A driven director with a visual memory, relentless deadlines and a habit of observing the details outside the centre of the frame."
+    },
+    "Vance Vellum": {
+      "credit": "Gossip columnist",
+      "description": "Charming, perceptive and rarely without a Polaroid. Vance knows that an unguarded moment makes a much better story than a posed portrait."
+    },
+    "Sabrina Sinclair": {
+      "credit": "Tabloid journalist",
+      "description": "A sharp reporter from the News of the Screws, equipped with a notebook, a nose for fear and no intention of leaving without a headline."
+    },
+    "Colin Cable": {
+      "credit": "Network engineer",
+      "description": "Quiet and precise, Colin understands how information moves through a system and how much people reveal when they think nobody is listening."
+    },
+    "Tommy Tech": {
+      "credit": "Computer consultant",
+      "description": "A Brummie microchip obsessive who sees the world as connected systems, fragile circuits and problems waiting to be debugged."
+    },
+    "Mandy Modem": {
+      "credit": "Hacker-for-hire",
+      "description": "Fast, elusive and fluent in machines most guests barely understand. Mandy treats locked systems as invitations rather than obstacles."
+    },
+    "Barry Byte": {
+      "credit": "ByteCorp salesman",
+      "description": "A slick evangelist for the computer age who always has a brochure, a backup and another deal ready to close."
+    },
+    "Peter Packard": {
+      "credit": "Technology investor",
+      "description": "An early backer of the digital future who understands that information, timing and confidence can be worth more than the hardware itself."
+    },
+    "Wanda Wires": {
+      "credit": "Lighting technician",
+      "description": "Quiet, practical and observant, Wanda works under Leo Lights and prefers equipment to celebrity egos."
+    },
+    "Glenda Gold": {
+      "credit": "Jewellery mogul",
+      "description": "Polished, persuasive and dazzlingly well connected. Glenda built an empire from precious stones and treats reputation as her most valuable asset."
+    },
+    "Sir Giles Houghton": {
+      "credit": "Establishment grandee",
+      "description": "A controlled senior figure accustomed to handling sensitive matters quietly, carefully and well away from public scrutiny."
+    },
+    "Graham Greenwell": {
+      "credit": "Pharmaceutical entrepreneur",
+      "description": "A polished businessman developing a fashionable herbal remedy with Dr. Beverly Steele. He sees markets, packaging and opportunity everywhere."
+    },
+    "Felix Fortune": {
+      "credit": "Celebrity psychic",
+      "description": "A theatrical mystic who speaks in suggestive half-truths and has an uncanny ability to notice when talk of luck makes somebody nervous."
+    },
+    "Sasha Smirnoff": {
+      "credit": "Defector ballerina",
+      "description": "Elegant, poised and rigorously controlled. Sasha carries herself with the discipline of someone who has crossed borders and survived powerful patrons."
+    },
+    "Marianne Moonbeam": {
+      "credit": "Alternative healer",
+      "description": "A free-spirited healer, winemaker and believer in energies that the rest of the room may be too cynical to understand."
+    },
+    "Miss Cherry Bomb": {
+      "credit": "Cosmetics queen",
+      "description": "A beauty-industry entrepreneur selling confidence in glamorous packaging, with the poise of someone who knows exactly how an image is constructed."
+    },
+    "Family Solicitor": {
+      "credit": "Master of formalities",
+      "description": "Well-meaning, slightly pompous and not quite as competent as he believes. The family solicitor keeps proceedings official, or at least official-looking."
+    },
+    "Tina 'Tank' Thatcher": {
+      "credit": "Union activist",
+      "description": "Tough, outspoken and politically charged, with a formidable understanding of power, information and the people who try to control both."
+    },
+    "Ronnie Redhand": {
+      "credit": "Colliery worker and organiser",
+      "description": "A formidable Welsh woman, recently sacked and in no mood to be diplomatic. Ronnie brings blunt questions, union conviction and a deep distrust of media power."
+    },
+    "Johnny 'Jet' Maxwell": {
+      "credit": "Punk legend and landlord",
+      "description": "An ex-punk frontman now running a questionable pub, still carrying the swagger, grudges and survival instincts of the old scene."
+    },
+    "Sid Scrape": {
+      "credit": "Old-school punk",
+      "description": "Still angry, still confrontational and deeply suspicious of polished celebrities. Sid wears distrust as naturally as a battered leather jacket."
+    },
+    "Ricky Blaze": {
+      "credit": "Stuntman and club owner",
+      "description": "A former screen daredevil who swapped film sets for nightclub doors and collected a lifetime of stories in the process."
+    },
+    "Marshall 'Macho' Monroe": {
+      "credit": "Wrestler turned cereal-ad star",
+      "description": "Patient, imposing and more sensitive about his acting than his size suggests, Marshall knows how to hold a room."
+    },
+    "Wendy Woke": {
+      "credit": "Marxist poet",
+      "description": "An uncompromising writer who sees power structures behind every polished image and regards Vale Meridian glamour with ideological suspicion."
+    },
+    "'Nev' Neville": {
+      "credit": "Former GCHQ technician",
+      "description": "An intelligent but uneasy systems specialist who sees too many connections, trusts almost nobody and handles every conversation with care."
+    },
+    "Agent 'Rosemary'": {
+      "credit": "Avon representative",
+      "description": "A composed visitor from Cheltenham with excellent observational skills, a talent for blending in and a surprisingly professional interest in surveillance."
+    },
+    "Lucien Luxe": {
+      "credit": "New Romantic pop star",
+      "description": "A stylish New Romantic pop star with an eye for drama, an immaculate public image and a talent for making an entrance."
+    },
+    "Penny Page": {
+      "credit": "Vale Meridian script editor",
+      "description": "A sharp-witted Vale Meridian script editor who supplies the polished words, spots every missing credit and is ready for recognition."
+    },
+    "Polly Premium": {
+      "credit": "Retired insurance assessor",
+      "description": "A retired insurance claims assessor with a sharp eye for small print, a flawless filing system and a polite air of never having been surprised."
+    }
+  }
+}
